@@ -13,7 +13,6 @@ header {
     width: 100%;
     height: 60px;
     background: palevioletred;
-    font-size: 20px;
     font-weight: bold;
     color: aliceblue;
 }
@@ -50,9 +49,4 @@ button {
 
 .list {
     margin-top: 20px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 100px;
 }

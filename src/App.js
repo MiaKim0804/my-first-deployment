@@ -5,9 +5,9 @@ import { Form } from './components/Form';
 function App() {
   return (
     <>
-      <header className="App-header">
+      <footer>
         <div>BaseURL : {config.baseURL}</div>
-      </header>
+      </footer>
       <Form />
     </>
     

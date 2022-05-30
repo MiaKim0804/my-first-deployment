@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './Form.css'
+import config from '../config/index'
 // import { nanoid } from 'nanoid'
 
 export const Form = () => {
@@ -49,6 +50,7 @@ export const Form = () => {
                     ))}
                 </div>
             </form>
+            <footer> BaseURL : {config.baseURL} </footer>
         </>
     )
 }

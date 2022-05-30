@@ -14,10 +14,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set REACR_APP_ENV=dev&&react-scripts build",
+    "build:stage": "set REACR_APP_ENV=stage&&react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build:stage",
     "deploy": "gh-pages -d build"
   },
   "homepage": "https://MiaKim0804.github.io/my-first-deployment",

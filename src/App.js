@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import config from './config/index';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <div>baseURL : {config.baseURL}</div>
       </header>
     </div>
   );

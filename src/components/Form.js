@@ -25,7 +25,7 @@ export const Form = () => {
     
     return (
         <>
-            <div>
+            <div className='header'>
                 <h1>Item Details</h1>  
                 <p>BaseURL : {config.baseURL}</p>
             </div>

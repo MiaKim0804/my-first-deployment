@@ -25,10 +25,10 @@ export const Form = () => {
     
     return (
         <>
-            <header>
+            <div>
                 <h1>Item Details</h1>  
                 <p>BaseURL : {config.baseURL}</p>
-            </header>
+            </div>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>Product</label>

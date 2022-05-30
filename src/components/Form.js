@@ -25,10 +25,7 @@ export const Form = () => {
     
     return (
         <>
-            <div className='header'>
-                <h1>Item Details</h1>  
-                <p>BaseURL : {config.baseURL}</p>
-            </div>
+            <header> Item Details </header>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>Product</label>
@@ -53,6 +50,7 @@ export const Form = () => {
                     ))}
                 </div>
             </form>
+            <footer> BaseURL : {config.baseURL} </footer>
         </>
     )
 }

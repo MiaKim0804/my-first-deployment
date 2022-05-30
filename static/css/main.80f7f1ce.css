@@ -1,0 +1,2 @@
+body{align-items:stretch;margin:0}.header,body{display:flex;flex-direction:column}.header{background:#db7093;color:#f0f8ff;height:60px;justify-content:center;text-align:center;width:100%}form{align-items:center;display:flex;flex-direction:column;margin-top:30px}form label{display:block;text-align:left}form input{box-sizing:border-box;display:block;margin:10px 0;padding:6px 10px;width:300px}button{background:#db7093;border:0;border-radius:8px;color:#fff;cursor:pointer;padding:8px}.list,button{margin-top:20px}
+/*# sourceMappingURL=main.80f7f1ce.css.map*/
